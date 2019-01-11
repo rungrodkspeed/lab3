@@ -2,11 +2,13 @@
 using namespace std;
 int main()
 {
-    float x = 1;
-    float i = x, ans = 1, j = 1;
-    while(i <= 69){
-        j = ans + 1;
-        ans = 1/j;
+    float x, j = 2;
+    float ans = 0, y = 2;
+    int i = x;
+    while(i < 69){
+        j = j+1;
+        y = 1/j;
+        ans = ans + y;
         i = i + 1;
     }
     cout << ans;
