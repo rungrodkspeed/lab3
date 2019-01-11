@@ -2,14 +2,18 @@
 using namespace std;
 int main()
 {
-    float x =6, j = 5;
-    float ans = 0, y = 6;
-    int i = x;
-    while(i < 19){
-        j = j+1;
-        y = 1/j;
-        ans = ans + y;
-        i = i + 1;
+    int text1, text2, N, count;
+    cout << "Enter the first text: ";
+    cin >> text1;
+    cout << "Enter the second text: ";
+    cin >> text2;
+    cout << "Enter N: ";
+    cin >> N;
+    count = 0;
+    if(count%2 ==0){
+        cout << "text1 ";
+    }else{
+        cout << "text2 ";
     }
-    cout << ans;
+    cout << count+1;
 }
