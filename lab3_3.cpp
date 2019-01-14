@@ -1,24 +1,15 @@
 #include<iostream>
-#include<string>
 using namespace std;
-int main()
-{
-	string text1, text2;
-    int N, count;
-    cout << "Enter the first text: ";
-    cin >> text1;
-    cout << "Enter the second text: ";
-    cin >> text2;
-    cout << "Enter N: ";
-    cin >> N;
-    count = 0;
-    while(count < N){
-    	if(count%2 == 0){
-    		cout << text1 << "\t";
-        }else{
-        	cout << text2 << "\t";
-		}
-	    count = count+1;
+int main(){
+    int num = 10;
+    int count = num;
+    int k;
+    int ans = 0;
+    while(count < 50){
+        k = count*count;
+        ans = ans + k;
+        count = count + 1;
     }
-	
+    cout << ans;
+    
 }
