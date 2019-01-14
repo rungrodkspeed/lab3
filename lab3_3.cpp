@@ -5,7 +5,7 @@ int main(){
     int count = num;
     int k;
     int ans = 0;
-    while(count < 50){
+    while(count <= 50){
         k = count*count;
         ans = ans + k;
         count = count + 1;
